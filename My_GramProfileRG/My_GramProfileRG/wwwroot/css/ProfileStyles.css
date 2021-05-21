@@ -1,4 +1,4 @@
-﻿#submit {
+﻿/*#submit {
     color: white;
     background-color: blue;
 }
@@ -26,4 +26,46 @@
        width: 75%;
         margin-left: auto;
         margin-right: auto;
+}*/
+
+:root {
+    --headerColor: white;
+    --backgroundHeaderColor: blue;
+    --tableHeaderFontColor: red;
+    --tableFontSize: 2rem;
+    --tableHeaderFontColorBig: black;
+    --tableFontSizeBig: 1rem;
+}
+
+#submit {
+    color: var(--headerColor);
+    background-color: var(--backgroundHeaderColor);
+}
+
+.ImageSections img, #ProfileImage {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+@media only screen and (max-width: 480px) {
+    .MainTableClass {
+        color: var(--tableHeaderFontColor);
+        font-size: var(--tableFontSize);
+    }
+}
+
+.MainTableClass table {
+    grid-template-columns: auto auto auto;
+}
+
+@media only screen and (min-width: 481px) {
+    .MainTableClass {
+        color: var(--tableHeaderFontColorBig);
+        font-size: var(--tableFontSizeBig);
+    }
+}
+
+.MainTableClass table {
+    grid-template-columns: auto auto auto;
 }
