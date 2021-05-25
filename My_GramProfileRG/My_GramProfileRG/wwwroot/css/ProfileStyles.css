@@ -33,8 +33,14 @@
     --backgroundHeaderColor: blue;
     --tableHeaderFontColor: red;
     --tableFontSize: 2rem;
+    --headerColorBg: white;
+    --backgroundHeaderColorBg: blue;
     --tableHeaderFontColorBig: black;
     --tableFontSizeBig: 1rem;
+}
+
+#MainContainer {
+    width: 100%;
 }
 
 #submit {
@@ -42,30 +48,56 @@
     background-color: var(--backgroundHeaderColor);
 }
 
-.ImageSections img, #ProfileImage {
+#ProfileImage {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 50%;
+    display: grid;
+}
+
+.ImageSections img {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 50%;
+    display: grid;
+}
+
+.MainTableClass {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+.MainTableClass table {
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
 }
 
 @media only screen and (max-width: 480px) {
-    .MainTableClass {
-        color: var(--tableHeaderFontColor);
-        font-size: var(--tableFontSize);
+    #ProfileImage, ImageSections img {
+        border-color: red;
+    }
+
+    .MainTableClass table {
+        grid-template-columns: auto auto;
     }
 }
-
-.MainTableClass table {
-    grid-template-columns: auto auto auto;
-}
-
 @media only screen and (min-width: 481px) {
-    .MainTableClass {
-        color: var(--tableHeaderFontColorBig);
-        font-size: var(--tableFontSizeBig);
+    #ProfileImage, ImageSections img {
+        border-color: black;
+    }
+
+    .MainTableClass table {
+        grid-template-columns: auto auto;
     }
 }
 
-.MainTableClass table {
-    grid-template-columns: auto auto auto;
-}
