@@ -1,20 +1,15 @@
-﻿body {
-}
-
-
-
-@media only screen and (max-width: 480px) {
-    #SignUp {
-    background-color: lightseagreen;
+﻿#SignUp {
     font-size: 10px;
     display: flex;
-    color: black;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
     height: 400px;
-  }
+}
+
+@media only screen and (max-width: 480px) {
+    
 }
 
 @media only screen and (min-width: 481px) {

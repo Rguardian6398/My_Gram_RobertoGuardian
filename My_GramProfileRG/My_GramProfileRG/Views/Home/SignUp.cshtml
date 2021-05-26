@@ -1,64 +1,34 @@
 ﻿<link rel="stylesheet" href="~/css/SignUp.css" />
 
 <form id="SignUp">
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                    <label for="FirstName">First Name:</label>
-                </td>
-                <td>
-                    <input name="FirstName" type="text" placeholder="Input Your First Name Here" size="40" />
-                </td>
-                <td>
-                    <label for="LastName">Last Name:</label>
-                </td>
-                <td>
-                    <input name="LastName" type="text" placeholder="Input Your Last Name Here" size="40" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="User">User:</label>
-                </td>
-                <td>
-                    <input name="User" type="text" placeholder="Input Your User Name Here" size="40" />
-                </td>
-                <td>
-                    <label for="Password">Password:</label>
-                </td>
-                <td>
-                    <input name="Password" type="text" placeholder="Input Your Password Here" size="40" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Gender">Gender:</label>
-                </td>
-                <td>
-                    <input type="radio" value="Male" />Male
-                    <input type="radio" value="Female" />Female
-                    <input type="radio" value="Perfer Not To Answer" />Perfer Not To Answer
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Residence">Country Of Residence:</label>
-                </td>
-                <td>
-                    <select id="country" name="country" >
-                        <option value="Texas">Texas</option>
-                        <option value="Arizona">Arizona</option>
-                        <option value="Mexico">Mexico</option>
-                        <option value="New Mexico">New Mexico</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button id="submit" type="submit">Sign Up</button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div>
+        <label for="FirstName">First Name:</label>
+        <input name="FirstName" type="text" placeholder="Input Your First Name Here" size="40" />
+        <label for="LastName">Last Name:</label>
+        <input name="LastName" type="text" placeholder="Input Your Last Name Here" size="40" />
+    </div>
+    <div>
+        <label for="User">User:</label>
+        <input name="User" type="text" placeholder="Input Your User Name Here" size="40" />
+        <label for="Password">Password:</label>
+        <input name="Password" type="text" placeholder="Input Your Password Here" size="40" />
+    </div>
+    <div>
+        <label for="Gender">Gender:</label>
+        <input type="radio" value="Male" />Male
+        <input type="radio" value="Female" />Female
+        <input type="radio" value="Perfer Not To Answer" />Perfer Not To Answer
+    </div>
+    <div>
+        <label for="Residence">Country Of Residence:</label>
+        <select id="country" name="country">
+            <option value="Texas">Texas</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Mexico">Mexico</option>
+            <option value="New Mexico">New Mexico</option>
+        </select>
+    </div>
+    <div>
+        <button id="submit" type="submit">Sign Up</button>
+    </div>
 </form>
