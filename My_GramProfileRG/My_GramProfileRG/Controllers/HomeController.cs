@@ -33,6 +33,11 @@ namespace My_GramProfileRG.Controllers
             return View();
         }
 
+        public IActionResult ViewCalender()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

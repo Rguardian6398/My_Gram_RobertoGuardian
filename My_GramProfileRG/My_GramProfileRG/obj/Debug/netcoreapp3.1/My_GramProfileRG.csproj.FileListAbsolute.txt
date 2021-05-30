@@ -351,3 +351,4 @@
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.pdb
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.genruntimeconfig.cache
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/Razor/Views/Home/SignUp.cshtml.g.cs
+/Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/Razor/Views/Home/ViewCalender.cshtml.g.cs

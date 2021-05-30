@@ -1,0 +1,60 @@
+﻿#Days {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+/*#MainContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}*/
+
+#MainContainer {
+    width: 100%;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.FirstWeek {
+    color: red;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.SecondWeek {
+    color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.ThirdWeek {
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.ForthWeek {
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.FifthWeek {
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.SixthWeek {
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
