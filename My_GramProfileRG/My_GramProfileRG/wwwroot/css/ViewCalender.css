@@ -24,13 +24,13 @@
 }
 
 .FirstWeek {
-    color: red;
+    color: black;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
 .SecondWeek {
-    color: blue;
+    color: black;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
 }
