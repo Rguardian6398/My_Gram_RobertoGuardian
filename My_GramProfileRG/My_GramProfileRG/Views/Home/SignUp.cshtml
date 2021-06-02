@@ -1,27 +1,28 @@
 ﻿<link rel="stylesheet" href="~/css/SignUp.css" />
 
 <form id="SignUp">
-    <div>
+    <div class="Information">
         <label for="FirstName">First Name:</label>
         <input name="FirstName" type="text" placeholder="Input Your First Name Here" size="40" />
         <label for="LastName">Last Name:</label>
         <input name="LastName" type="text" placeholder="Input Your Last Name Here" size="40" />
     </div>
-    <div>
+    <div class="Information">
         <label for="User">User:</label>
         <input name="User" type="text" placeholder="Input Your User Name Here" size="40" />
         <label for="Password">Password:</label>
         <input name="Password" type="text" placeholder="Input Your Password Here" size="40" />
     </div>
-    <div>
+    <div class="Information">
         <label for="Gender">Gender:</label>
         <input type="radio" value="Male" />Male
         <input type="radio" value="Female" />Female
         <input type="radio" value="Perfer Not To Answer" />Perfer Not To Answer
     </div>
-    <div>
+    <div class="Information">
         <label for="Residence">Country Of Residence:</label>
         <select id="country" name="country">
+            <option value="Select">Select Country</option>
             <option value="Texas">Texas</option>
             <option value="Arizona">Arizona</option>
             <option value="Mexico">Mexico</option>

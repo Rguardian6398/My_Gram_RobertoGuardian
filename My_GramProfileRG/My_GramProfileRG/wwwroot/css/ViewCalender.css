@@ -1,60 +1,47 @@
-﻿#Days {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-}
-
-/*#MainContainer {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: center;
-}*/
-
-#MainContainer {
-    width: 100%;
-    background-color: white;
-    border: solid;
-    border-color: black;
-    border-radius: 4px;
+﻿#MainCalender {
     display: grid;
     grid-template-columns: auto;
 }
 
-.FirstWeek {
-    color: black;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+.CalenderRows {
+    display: flex;
+    flex-direction: row;
 }
 
-.SecondWeek {
-    color: black;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+.FlexRow {
+    width: 14.28%;
+    display: flex;
+    justify-content: left;
 }
 
-.ThirdWeek {
-    color: black;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+.WeekDay {
+    width: 14.28%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
 }
 
-.ForthWeek {
-    color: black;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+.WeekEnd {
+    background-color: #e3e3e3;
 }
 
-.FifthWeek {
-    color: black;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+.WeekDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-.SixthWeek {
-    color: black;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+.Event {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.Video1 {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
 }
