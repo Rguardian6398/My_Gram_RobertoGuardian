@@ -1,4 +1,46 @@
-﻿:root {
+﻿.row {
+    color: black;
+}
+
+/*.Profile {
+    background-color: lightblue;
+}
+
+.Profile1 {
+    background-color: lightblue;
+}
+
+.Profile2 {
+    background-color: lightslategray;
+}
+
+.Profile3 {
+    background-color: skyblue;
+}
+
+.Profile4 {
+    background-color: lightseagreen;
+}*/
+
+
+
+
+
+#ProfileImage {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: var(--tableHeaderFontColor);
+    border-width: 4px;
+    border-radius: 50%;
+}
+
+#submit {
+    color: white;
+    background-color: blue;
+}
+
+/*:root {
     --headerColor: white;
     --backgroundHeaderColor: blue;
     --tableHeaderFontColor: red;
@@ -86,4 +128,4 @@
     border-width: 4px;
     border-radius: 50%;
     display: grid;
-}
+}*/

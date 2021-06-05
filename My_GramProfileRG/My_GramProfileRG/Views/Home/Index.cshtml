@@ -4,67 +4,108 @@
 
 <link rel="stylesheet" href="~/css/ProfileStyles.css" />
 
-<div class="text-center">
-    <div id="header">
+<div id="header">
+    <div class="row justify-content-center">
         My Gram
         <input type="text" placeholder="Search">
         <button id="submit" type="submit">Log In</button>
         <a href="~/Home/SignUp"><button id="submit" type="submit">SignUp</button></a>
     </div>
-    <div id="MainContainer">
-        <div class="MainTableClass">
-            <div id="MainProfileInformation">
-                <img class="Span3Rows" id="ProfileImage" style="width: 190px;height: 190px;" src="https://www.desktopbackground.org/download/480x800/2011/10/08/277967_12-kamen-rider-ooo-hd-wallpapers_1500x1125_h.jpg" />
-                <span>Roberto Guardian</span>
-                <div>
-                    <button id="submit" type="submit">
-                        Follow
-                    </button>
-                </div>
-                <div class="span2Columns">
-                    <span>5 posts</span>
-                    <span>10 Followers</span>
-                    <span>20 Following</span>
-                </div>
-                <p class="span2Columns" style="font-size:90%;">
-                    Welcome to my profile, my name is Roberto Guardian, I am 19-years-old, I like to watch anime and youtube.
-                    Team Godzilla for life, I like to draw, create stuff with my legos, and soon make stuff with a 3D Printer. When I grow up I
-                    hope to have a small business in graphic design, while selling some 3d printed stuff and sone drawings while doing youtube (as a hobby).
-                </p>
+</div>
+
+<div id="OurClass container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-2">
+            <img id="ProfileImage" style="width: 190px;height: 190px;" src="https://www.desktopbackground.org/download/480x800/2011/10/08/277967_12-kamen-rider-ooo-hd-wallpapers_1500x1125_h.jpg" />
+        </div>
+        <div class="offset-1 col-md-8 col-md-3 align-self-center">
+            <span>Roberto Guardian</span>
+            <button id="submit" type="submit">
+                Follow
+            </button>
+            <div class="col-md-2 col-lg-8">
+                <span>5 posts</span>
+                <span>10 Followers</span>
+                <span>20 Following</span>
             </div>
-            <div class="Span3Columns">
-                <div>
-                    <img id="ProfileImage" style="width: 150px;height: 150px;" src="https://2.bp.blogspot.com/-AwXiGfj9k2s/XLTzKdCHKlI/AAAAAAAABiQ/KIIOTkAimNkV0CHHpYX8jzaY-9CLl7NqACKgBGAs/w914/godzilla-king-of-the-monsters-uhdpaper.com-4K-9.jpg" />
-                    My Favorite Movie Is Godzilla
-                </div>
-                <div>
-                    <img id="ProfileImage" style="width: 150px;height: 150px;" src="https://wallpaperaccess.com/full/1109423.jpg" />
-                    My Favorite Anime Is "Darling In The FranXX"
-                </div>
-                <div>
-                    <img id="ProfileImage" style="width: 150px;height: 150px;" src="https://i.pinimg.com/originals/e5/2f/2f/e52f2fd10f583fb5c2f197fa0d033660.jpg" />
-                    My Favorite T.V Show Is Ben 10
-                </div>
+            <div class="col-md-1 col-lg-10 align-self-center">
+                Welcome to my profile, my name is Roberto Guardian, I am 19-years-old, I like to watch anime and youtube.
+                Team Godzilla for life, I like to draw, create stuff with my legos, and soon make stuff with a 3D Printer. When I grow up I
+                hope to have a small business in graphic design, while selling some 3d printed stuff and sone drawings while doing youtube (as a hobby).
             </div>
-            <div>
-                <span>Posts</span>
-                <span>Reels</span>
-                <span>IGTV</span>
-                <span>Tagged</span>
-                <span><a asp-controller="Home" asp-action="ViewCalender">View By Calender</a></span>
+        </div>
+    </div>
+    <div id="information2">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img id="ProfileImage" style="width: 150px;height: 150px;" src="https://2.bp.blogspot.com/-AwXiGfj9k2s/XLTzKdCHKlI/AAAAAAAABiQ/KIIOTkAimNkV0CHHpYX8jzaY-9CLl7NqACKgBGAs/w914/godzilla-king-of-the-monsters-uhdpaper.com-4K-9.jpg" />
+                My Favorite Movie Is Godzilla
             </div>
-            <div class="Posts">
+            <div class="col-2">
+                <img id="ProfileImage" style="width: 150px;height: 150px;" src="https://wallpaperaccess.com/full/1109423.jpg" />
+                My Favorite Anime Is "Darling In The FranXX"
+            </div>
+            <div class="col-2">
+                <img id="ProfileImage" style="width: 150px;height: 150px;" src="https://i.pinimg.com/originals/e5/2f/2f/e52f2fd10f583fb5c2f197fa0d033660.jpg" />
+                My Favorite T.V Show Is Ben 10
+            </div>
+        </div>
+    </div>
+    <div id="Selection">
+        <div class="row justify-content-center">
+            <div class="col-1">
+                Posts
+            </div>
+            <div class="col-1">
+                Reels
+            </div>
+            <div class="col-1">
+                IGTV
+            </div>
+            <div class="col-1">
+                Tagged
+            </div>
+            <div class="col-2">
+                <a asp-controller="Home" asp-action="ViewCalender">View By Calender</a>
+            </div>
+        </div>
+    </div>
+    <div id="images">
+        <div class="row justify-content-end">
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/736x/14/4f/17/144f17cc3ab198ab0986cb86afddb19f.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/originals/7b/4f/cf/7b4fcfbc2437df1d34b5343622754ce3.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://artfiles.alphacoders.com/124/124377.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://mfiles.alphacoders.com/773/773500.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://wallpapercave.com/wp/wp2683038.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/originals/82/ea/f0/82eaf0e7994959b33cca82075dee7a15.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.redd.it/av9xzd7jf0i51.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://r1.ilikewallpaper.net/iphone-x-wallpapers/download/82278/artwork-godzilla-king-of-the-monsters-iphone-x-wallpaper-ilikewallpaper_com.jpg" />
-                <img style="width: 200px;height: 250px;" src="https://cdn.wallpapersafari.com/79/0/qSuEgk.jpg" /></td>
+            </div>
+            <div class="col-4">
+                <img style="width: 200px;height: 250px;" src="https://cdn.wallpapersafari.com/79/0/qSuEgk.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/originals/e3/ed/34/e3ed3423462f4db7cfaa83221c1a7ce4.jpg" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://external-preview.redd.it/EnDRtV0e1Lvci_-_gPf8R4148ZEh_rr1u1RpRBnwPzE.jpg?auto=webp&s=ee006b870e3caa8a6916706880974a37ac87c785" />
+            </div>
+            <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/736x/f8/94/be/f894beaee6ccc93bf5de570fa163e685.jpg" />
             </div>
         </div>
