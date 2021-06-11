@@ -322,7 +322,6 @@
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.csprojAssemblyReference.cache
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.AssemblyInfoInputs.cache
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.AssemblyInfo.cs
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.csproj.CoreCompileInputs.cache
@@ -352,3 +351,4 @@
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.genruntimeconfig.cache
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/Razor/Views/Home/SignUp.cshtml.g.cs
 /Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/Razor/Views/Home/ViewCalender.cshtml.g.cs
+/Users/robertoguardian154gmail.com/Desktop/My_Gram_Roberto_Guardian/My_GramProfileRG/My_GramProfileRG/obj/Debug/netcoreapp3.1/My_GramProfileRG.csproj.AssemblyReference.cache

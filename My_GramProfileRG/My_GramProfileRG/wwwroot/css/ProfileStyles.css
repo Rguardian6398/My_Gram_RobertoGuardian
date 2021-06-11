@@ -1,6 +1,13 @@
-﻿.row {
-    color: black;
+﻿#carouselExampleControls img {
+    width: 200px;
+    height: 400px;
 }
+
+
+
+
+
+
 
 /*.Profile {
     background-color: lightblue;

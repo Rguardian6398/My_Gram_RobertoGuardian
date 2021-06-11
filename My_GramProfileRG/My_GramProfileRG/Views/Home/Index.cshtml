@@ -4,13 +4,11 @@
 
 <link rel="stylesheet" href="~/css/ProfileStyles.css" />
 
-<div id="header">
-    <div class="row justify-content-center">
+<div id="top">
         My Gram
         <input type="text" placeholder="Search">
         <button id="submit" type="submit">Log In</button>
         <a href="~/Home/SignUp"><button id="submit" type="submit">SignUp</button></a>
-    </div>
 </div>
 
 <div id="OurClass container-fluid">
@@ -72,9 +70,13 @@
     </div>
     <div id="images">
         <div class="row justify-content-end">
+            <!-- Button trigger modal -->
             <div class="col-4">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/736x/14/4f/17/144f17cc3ab198ab0986cb86afddb19f.jpg" />
+                </button>
             </div>
+
             <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/originals/7b/4f/cf/7b4fcfbc2437df1d34b5343622754ce3.jpg" />
             </div>
@@ -107,6 +109,54 @@
             </div>
             <div class="col-4">
                 <img style="width: 200px;height: 250px;" src="https://i.pinimg.com/736x/f8/94/be/f894beaee6ccc93bf5de570fa163e685.jpg" />
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">View all images in a carousel</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.pinimg.com/736x/14/4f/17/144f17cc3ab198ab0986cb86afddb19f.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.pinimg.com/originals/7b/4f/cf/7b4fcfbc2437df1d34b5343622754ce3.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://artfiles.alphacoders.com/124/124377.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://mfiles.alphacoders.com/773/773500.jpg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev"
+                                        type="button" data-bs-target="#carouselExampleControls"
+                                        data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"
+                                          aria-hidden="true"></span>
+                                    <span class="visual-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next"
+                                        type="button" data-bs-target="#carouselExampleControls"
+                                        data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"
+                                          aria-hidden="true"></span>
+                                    <span class="visual-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
